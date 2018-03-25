@@ -4,8 +4,9 @@
   PM.tilt.init();
 
   PM.bgm = new PM.BGM($('#bgm-audio'), {
-    src: '/audios/pm_bgm2.mp3',
-    autoplay: false
+    // src: '/audios/pm_bgm2.mp3',
+    src: '/audios/marryyou.mp3',
+    autoplay: true
   });
 
 
