@@ -71,7 +71,7 @@
   $('#btn-checkin').on('tap', function(e) {
     var mask = $('#checkin-mask');
     var weuiActionsheet = $('#checkin-actionsheet');
-    var remainDays = Math.floor((new Date(2018, 4, 7) - new Date())/(24*3600*1000));
+    var remainDays = Math.floor((new Date(2018, 3, 7) - new Date())/(24*3600*1000));
     if (remainDays > 0) {
       weuiActionsheet.find('[data-status="present"]').addClass('disabled').find('small').html('还有' + remainDays + '天');
     }
